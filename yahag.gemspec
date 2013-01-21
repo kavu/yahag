@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Yahag::VERSION
   gem.authors       = ['Max Riveiro']
   gem.email         = ['kavu13@gmail.com']
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = 'Yahag is just a little gem for HockeyApp API endpoints. For now it supports only Team endpoint.'
+  gem.summary       = 'Yahag is Yet Another HockeyApp Gem'
   gem.homepage      = "https://github.com/kavu/yahag"
   gem.license       = "MIT"
 
