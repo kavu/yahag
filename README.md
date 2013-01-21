@@ -1,7 +1,5 @@
 # Yahag
 
-TODO: Write a gem description
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -18,7 +16,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+  @hockey = Yahag::App.new do
+    app_id      'your HockeyApp Application ID'
+    app_token   'your HockeyApp [API Token](https://rink.hockeyapp.net/manage/auth_tokens "API Tokens")'
+    app_secret  'your HockeyApp Application Secret'
+  end
+
+  @hockey.list_users
+  @hockey.add_user 'some@email.su'
+```
 
 ## Contributing
 
@@ -30,4 +37,4 @@ TODO: Write usage instructions here
 
 ## Copyright
 
-Copyright (c) 2013 Max Riveiro. See LICENSE.txt for urther details.
+Copyright (c) 2013 Max Riveiro. See LICENSE.txt for further details.
